@@ -2,4 +2,12 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/diahsisk/public_html/
-    - /bin/cp -R public $DEPLOYPATH
+    - /bin/cp -R public/css $DEPLOYPATH
+    - /bin/cp -R public/images $DEPLOYPATH
+    - /bin/cp -R public/js $DEPLOYPATH
+    - /bin/cp -R public/vendor $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp favicon.ico $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp robots.txt $DEPLOYPATH
+    - /bin/cp template.xlsx $DEPLOYPATH
